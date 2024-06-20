@@ -1,4 +1,0 @@
-transformers
-configparser
-json
-os

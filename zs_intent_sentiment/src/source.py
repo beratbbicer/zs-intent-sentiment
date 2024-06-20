@@ -7,6 +7,7 @@ os.environ['HF_HOME'] = 'resources'
 from transformers import pipeline
 import configparser
 import json
+from pathlib import Path
 
 def predict_sentiment_intention(classifier, text, labels):
     # Predict sentiment
@@ -29,14 +30,28 @@ def predict_sentiment_intention(classifier, text, labels):
     }
 
 def main():
+    localdir = Path(__file__).parent.resolve()
+    # Path.cwd()
+
     # Setup
     config = configparser.ConfigParser()
-    config.read(f'config{os.sep}config.ini')
-
-    conversation = json.loads(config.get('data', 'conversation_file'))
-    labels = json.loads(config.get('data', 'labels'))
+    configpath = Path(localdir).joinpath('config').joinpath('config.ini')
+    print(str(configpath.resolve()))
+    config.read(str(configpath.resolve()))
     classifier = pipeline("zero-shot-classification", model=config.get('model', 'model_name'))
+
+    conversation_file = Path(localdir).joinpath('data').joinpath('conversation_file')
+    print(str(conversation_file.resolve()))
+    conversation = json.loads(str(conversation_file.resolve()))
     
+    labels_file = Path(localdir).joinpath('data').joinpath('labels')
+    print(str(labels_file.resolve()))
+    labels = json.loads(str(labels_file.resolve()))
+    
+    print(conversation)
+    print(labels)
+    return
+
     # Run the classifier
     results = []
     for message in conversation:
@@ -48,6 +63,3 @@ def main():
 
     for res in results:
         print(f"Text: {res['text']}\n\tSentiment: {res['sentiment']}\n\tEmotion: {res['emotion']}\n\tIntention: {res['intention']}")
-
-if __name__ == "__main__":
-    main()

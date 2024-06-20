@@ -13,3 +13,6 @@ include resources/__init__.py
 # Particular includes
 include README.md
 include .gitignore
+
+[project.gui-scripts]
+zsinf = "zs_intent_sentiment:main"
