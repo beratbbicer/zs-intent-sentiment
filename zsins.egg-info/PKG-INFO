@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: zsins
+Version: 1.0
+Summary: NLP Intent, Emotion, and Sentiment Analysis with Zero-Shot Learning
+Home-page: https://github.com/beratbbicer/zs-intent-sentiment/
+Author: Berat Biçer
+Author-email: beratbbicer@gmail.com
+License: MIT
+License-File: LICENSE

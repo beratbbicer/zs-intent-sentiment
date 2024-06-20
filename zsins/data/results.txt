@@ -1,0 +1,88 @@
+Text: Hi, I'm interested in buying an iPhone 14.
+	Sentiment: positive
+	Emotion: anticipation
+	Intention: purchase
+Text: Hello! I'd be happy to help. Are you looking for a specific model or color?
+	Sentiment: positive
+	Emotion: anticipation
+	Intention: inquire_product
+Text: I'm not sure yet. Can you tell me the available options?
+	Sentiment: neutral
+	Emotion: surprise
+	Intention: ask_availability
+Text: Absolutely. We have the iPhone 14 in several colors: black, white, red, and blue. The storage options are 128GB, 256GB, and 512GB.
+	Sentiment: positive
+	Emotion: surprise
+	Intention: inquire_product
+Text: What are the prices for these options?
+	Sentiment: positive
+	Emotion: surprise
+	Intention: inquire_product
+Text: The prices vary depending on the storage capacity. The 128GB model starts at $799, the 256GB at $899, and the 512GB at $1099.
+	Sentiment: negative
+	Emotion: surprise
+	Intention: purchase
+Text: Okay, I think I'll go for the 256GB model. Do you have any ongoing promotions?
+	Sentiment: positive
+	Emotion: surprise
+	Intention: upgrade
+Text: We do have a promotion where you can get a discount if you trade in your old phone. Do you have a phone you'd like to trade in?
+	Sentiment: positive
+	Emotion: surprise
+	Intention: general_inquiry
+Text: Yes, I have an iPhone X. How much would I get for it?
+	Sentiment: positive
+	Emotion: surprise
+	Intention: inquire_product
+Text: Let me check that for you. Based on the condition, you can get up to $300 for your iPhone X.
+	Sentiment: neutral
+	Emotion: surprise
+	Intention: feedback
+Text: That's great. What will the final price be with the trade-in discount?
+	Sentiment: positive
+	Emotion: anticipation
+	Intention: feedback
+Text: With the trade-in discount, the final price for the 256GB iPhone 14 will be $599.
+	Sentiment: positive
+	Emotion: surprise
+	Intention: downgrade
+Text: That sounds good. How can I proceed with the purchase?
+	Sentiment: positive
+	Emotion: anticipation
+	Intention: purchase
+Text: You can purchase it directly through our website or visit one of our stores. Would you prefer to complete the purchase online?
+	Sentiment: positive
+	Emotion: surprise
+	Intention: purchase
+Text: Yes, I prefer to do it online. Can you guide me through the process?
+	Sentiment: positive
+	Emotion: surprise
+	Intention: feedback
+Text: Of course. First, visit our website and select the iPhone 14. Choose the 256GB model and the color you want. Then, add it to your cart.
+	Sentiment: positive
+	Emotion: anticipation
+	Intention: purchase
+Text: I’ve done that. What next?
+	Sentiment: negative
+	Emotion: anticipation
+	Intention: general_inquiry
+Text: Next, proceed to checkout. You’ll be prompted to enter your trade-in details. Follow the instructions to complete the trade-in process and apply the discount.
+	Sentiment: positive
+	Emotion: surprise
+	Intention: purchase
+Text: I see. Do I need to send my old phone immediately?
+	Sentiment: positive
+	Emotion: surprise
+	Intention: feedback
+Text: Yes, you’ll receive a shipping kit to send in your old phone. Once we receive it and verify its condition, the discount will be applied.
+	Sentiment: positive
+	Emotion: surprise
+	Intention: return_item
+Text: Great, thank you for your help. I’ll complete the purchase now.
+	Sentiment: positive
+	Emotion: gratitude
+	Intention: purchase
+Text: You're welcome! If you have any other questions, feel free to ask. Have a great day!
+	Sentiment: positive
+	Emotion: gratitude
+	Intention: general_inquiry
