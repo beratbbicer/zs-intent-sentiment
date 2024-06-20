@@ -1,0 +1,15 @@
+# Include the source files
+include src/*py
+
+# Include the data files
+include data/*json
+
+# Include the configuration files
+include config/*ini
+
+# Include only the resources folder
+include resources/__init__.py
+
+# Particular includes
+include README.md
+include .gitignore

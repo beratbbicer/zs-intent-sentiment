@@ -15,7 +15,7 @@ This project aims to predict sentiment and intention from a given text using a z
 3. Install the package via
 
 ```shellscript
-pip install .
+pip install {name of archive}
 ```
 
 ## Usage

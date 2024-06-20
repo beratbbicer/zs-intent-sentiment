@@ -28,8 +28,11 @@ def predict_sentiment_intention(classifier, text, labels):
         "intention": intention
     }
 
-def main(config):
+def main():
     # Setup
+    config = configparser.ConfigParser()
+    config.read(f'config{os.sep}config.ini')
+
     conversation = json.loads(config.get('data', 'conversation_file'))
     labels = json.loads(config.get('data', 'labels'))
     classifier = pipeline("zero-shot-classification", model=config.get('model', 'model_name'))
@@ -47,6 +50,4 @@ def main(config):
         print(f"Text: {res['text']}\n\tSentiment: {res['sentiment']}\n\tEmotion: {res['emotion']}\n\tIntention: {res['intention']}")
 
 if __name__ == "__main__":
-    config = configparser.ConfigParser()
-    config.read(f'config{os.sep}config.ini')
-    main(config)
+    main()
