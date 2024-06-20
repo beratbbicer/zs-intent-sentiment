@@ -1,0 +1,26 @@
+{
+    "conversation": [
+      {"role": "customer", "text": "Hi, I'm interested in buying an iPhone 14."},
+      {"role": "representative", "text": "Hello! I'd be happy to help. Are you looking for a specific model or color?"},
+      {"role": "customer", "text": "I'm not sure yet. Can you tell me the available options?"},
+      {"role": "representative", "text": "Absolutely. We have the iPhone 14 in several colors: black, white, red, and blue. The storage options are 128GB, 256GB, and 512GB."},
+      {"role": "customer", "text": "What are the prices for these options?"},
+      {"role": "representative", "text": "The prices vary depending on the storage capacity. The 128GB model starts at $799, the 256GB at $899, and the 512GB at $1099."},
+      {"role": "customer", "text": "Okay, I think I'll go for the 256GB model. Do you have any ongoing promotions?"},
+      {"role": "representative", "text": "We do have a promotion where you can get a discount if you trade in your old phone. Do you have a phone you'd like to trade in?"},
+      {"role": "customer", "text": "Yes, I have an iPhone X. How much would I get for it?"},
+      {"role": "representative", "text": "Let me check that for you. Based on the condition, you can get up to $300 for your iPhone X."},
+      {"role": "customer", "text": "That's great. What will the final price be with the trade-in discount?"},
+      {"role": "representative", "text": "With the trade-in discount, the final price for the 256GB iPhone 14 will be $599."},
+      {"role": "customer", "text": "That sounds good. How can I proceed with the purchase?"},
+      {"role": "representative", "text": "You can purchase it directly through our website or visit one of our stores. Would you prefer to complete the purchase online?"},
+      {"role": "customer", "text": "Yes, I prefer to do it online. Can you guide me through the process?"},
+      {"role": "representative", "text": "Of course. First, visit our website and select the iPhone 14. Choose the 256GB model and the color you want. Then, add it to your cart."},
+      {"role": "customer", "text": "I’ve done that. What next?"},
+      {"role": "representative", "text": "Next, proceed to checkout. You’ll be prompted to enter your trade-in details. Follow the instructions to complete the trade-in process and apply the discount."},
+      {"role": "customer", "text": "I see. Do I need to send my old phone immediately?"},
+      {"role": "representative", "text": "Yes, you’ll receive a shipping kit to send in your old phone. Once we receive it and verify its condition, the discount will be applied."},
+      {"role": "customer", "text": "Great, thank you for your help. I’ll complete the purchase now."},
+      {"role": "representative", "text": "You're welcome! If you have any other questions, feel free to ask. Have a great day!"}
+    ]
+  }  

@@ -1,0 +1,5 @@
+{
+    "sentiment_labels": ["positive", "negative", "neutral"],
+    "emotion_labels": ["neutral", "joy", "sadness", "anger", "fear", "disgust", "surprise", "trust", "anticipation", "love", "remorse", "optimism", "disappointment", "gratitude", "envy", "jealousy", "guilt"],
+    "intention_labels": ["inquire_product", "purchase", "complaint", "feedback", "change_package", "upgrade", "downgrade", "cancel_subscription", "return_item", "request_refund", "technical_support", "account_help", "general_inquiry", "request_information", "schedule_appointment", "modify_order", "track_order", "product_recommendation", "request_features", "provide_testimonial", "report_issue", "ask_availability", "negotiate_price", "request_demo", "billing_issue"]
+}
